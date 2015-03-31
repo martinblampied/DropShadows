@@ -16,9 +16,9 @@ class ViewController: UIViewController {
         
         // caSetShadow()
         // caSetShadowWithTransparency()
-        // caSetShadowWithAnimation()
-        // bezierSetShadow()
-         bezierSetCurvShadow()
+         caSetShadowWithAnimation()
+         // bezierSetShadow()
+       //  bezierSetCurvShadow()
         
         
     }
@@ -74,17 +74,33 @@ class ViewController: UIViewController {
         self.view.addSubview(myView)
         
         
-        UIView.animateWithDuration(5, delay: 1, options: .Repeat, animations:
+        UIView.animateWithDuration(5, delay: 0, options: .Repeat | .Autoreverse, animations:
             {
                 myView.layer.cornerRadius = myView.frame.size.width/2
                 myView.frame.size = CGSizeMake(50, 50)
-                myView.layer.shadowOffset = CGSizeMake(10, 10)
-                myView.layer.shadowRadius = 3
             }, completion: nil)
+
+        let shadowOffsetAnimation = CABasicAnimation(keyPath: "shadowOffset")
+        shadowOffsetAnimation.fromValue = NSValue(CGSize: CGSizeMake(5, 5))
+        shadowOffsetAnimation.toValue =  NSValue(CGSize: CGSizeMake(-10, -10))
+        shadowOffsetAnimation.duration = 5.0
+        shadowOffsetAnimation.repeatCount = HUGE
+        shadowOffsetAnimation.autoreverses = true
+        myView.layer.addAnimation(shadowOffsetAnimation, forKey: nil)
+
+        let shadowRadiusAnimation = CABasicAnimation(keyPath: "shadowRadius")
+        shadowRadiusAnimation.fromValue = 6
+        shadowRadiusAnimation.toValue = 3
+        shadowRadiusAnimation.duration = 5.0
+        shadowRadiusAnimation.repeatCount = HUGE
+        shadowRadiusAnimation.autoreverses = true
+        myView.layer.addAnimation(shadowRadiusAnimation, forKey: nil)
+
+
     }
-    
-    
-    
+
+
+
     func bezierSetShadow() {
         
         var myView = UIView(frame: CGRectMake(100, 100, 100, 100))
