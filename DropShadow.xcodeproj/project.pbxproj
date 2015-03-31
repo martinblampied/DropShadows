@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC4589291ACABDBE004FA246 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4589281ACABDBE004FA246 /* AppDelegate.swift */; };
+		BC45892B1ACABDBE004FA246 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC45892A1ACABDBE004FA246 /* ViewController.swift */; };
+		BC45892E1ACABDBE004FA246 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC45892C1ACABDBE004FA246 /* Main.storyboard */; };
+		BC4589301ACABDBE004FA246 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC45892F1ACABDBE004FA246 /* Images.xcassets */; };
+		BC4589331ACABDBE004FA246 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC4589311ACABDBE004FA246 /* LaunchScreen.xib */; };
+		BC45893F1ACABDBE004FA246 /* DropShadowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC45893E1ACABDBE004FA246 /* DropShadowTests.swift */; };
+		BC4589491ACAEE9A004FA246 /* google.png in Resources */ = {isa = PBXBuildFile; fileRef = BC4589481ACAEE9A004FA246 /* google.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC4589391ACABDBE004FA246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC45891B1ACABDBE004FA246 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC4589221ACABDBE004FA246;
+			remoteInfo = DropShadow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC4589231ACABDBE004FA246 /* DropShadow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropShadow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC4589271ACABDBE004FA246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC4589281ACABDBE004FA246 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC45892A1ACABDBE004FA246 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC45892D1ACABDBE004FA246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC45892F1ACABDBE004FA246 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC4589321ACABDBE004FA246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BC4589381ACABDBE004FA246 /* DropShadowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropShadowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC45893D1ACABDBE004FA246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC45893E1ACABDBE004FA246 /* DropShadowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropShadowTests.swift; sourceTree = "<group>"; };
+		BC4589481ACAEE9A004FA246 /* google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC4589201ACABDBE004FA246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC4589351ACABDBE004FA246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC45891A1ACABDBE004FA246 = {
+			isa = PBXGroup;
+			children = (
+				BC4589251ACABDBE004FA246 /* DropShadow */,
+				BC45893B1ACABDBE004FA246 /* DropShadowTests */,
+				BC4589241ACABDBE004FA246 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC4589241ACABDBE004FA246 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC4589231ACABDBE004FA246 /* DropShadow.app */,
+				BC4589381ACABDBE004FA246 /* DropShadowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC4589251ACABDBE004FA246 /* DropShadow */ = {
+			isa = PBXGroup;
+			children = (
+				BC4589281ACABDBE004FA246 /* AppDelegate.swift */,
+				BC45892A1ACABDBE004FA246 /* ViewController.swift */,
+				BC45892C1ACABDBE004FA246 /* Main.storyboard */,
+				BC4589481ACAEE9A004FA246 /* google.png */,
+				BC45892F1ACABDBE004FA246 /* Images.xcassets */,
+				BC4589311ACABDBE004FA246 /* LaunchScreen.xib */,
+				BC4589261ACABDBE004FA246 /* Supporting Files */,
+			);
+			path = DropShadow;
+			sourceTree = "<group>";
+		};
+		BC4589261ACABDBE004FA246 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC4589271ACABDBE004FA246 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC45893B1ACABDBE004FA246 /* DropShadowTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC45893E1ACABDBE004FA246 /* DropShadowTests.swift */,
+				BC45893C1ACABDBE004FA246 /* Supporting Files */,
+			);
+			path = DropShadowTests;
+			sourceTree = "<group>";
+		};
+		BC45893C1ACABDBE004FA246 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC45893D1ACABDBE004FA246 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC4589221ACABDBE004FA246 /* DropShadow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC4589421ACABDBE004FA246 /* Build configuration list for PBXNativeTarget "DropShadow" */;
+			buildPhases = (
+				BC45891F1ACABDBE004FA246 /* Sources */,
+				BC4589201ACABDBE004FA246 /* Frameworks */,
+				BC4589211ACABDBE004FA246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropShadow;
+			productName = DropShadow;
+			productReference = BC4589231ACABDBE004FA246 /* DropShadow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC4589371ACABDBE004FA246 /* DropShadowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC4589451ACABDBE004FA246 /* Build configuration list for PBXNativeTarget "DropShadowTests" */;
+			buildPhases = (
+				BC4589341ACABDBE004FA246 /* Sources */,
+				BC4589351ACABDBE004FA246 /* Frameworks */,
+				BC4589361ACABDBE004FA246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC45893A1ACABDBE004FA246 /* PBXTargetDependency */,
+			);
+			name = DropShadowTests;
+			productName = DropShadowTests;
+			productReference = BC4589381ACABDBE004FA246 /* DropShadowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC45891B1ACABDBE004FA246 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = MartinBlampied;
+				TargetAttributes = {
+					BC4589221ACABDBE004FA246 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					BC4589371ACABDBE004FA246 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = BC4589221ACABDBE004FA246;
+					};
+				};
+			};
+			buildConfigurationList = BC45891E1ACABDBE004FA246 /* Build configuration list for PBXProject "DropShadow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC45891A1ACABDBE004FA246;
+			productRefGroup = BC4589241ACABDBE004FA246 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC4589221ACABDBE004FA246 /* DropShadow */,
+				BC4589371ACABDBE004FA246 /* DropShadowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC4589211ACABDBE004FA246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC45892E1ACABDBE004FA246 /* Main.storyboard in Resources */,
+				BC4589331ACABDBE004FA246 /* LaunchScreen.xib in Resources */,
+				BC4589491ACAEE9A004FA246 /* google.png in Resources */,
+				BC4589301ACABDBE004FA246 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC4589361ACABDBE004FA246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC45891F1ACABDBE004FA246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC45892B1ACABDBE004FA246 /* ViewController.swift in Sources */,
+				BC4589291ACABDBE004FA246 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC4589341ACABDBE004FA246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC45893F1ACABDBE004FA246 /* DropShadowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC45893A1ACABDBE004FA246 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC4589221ACABDBE004FA246 /* DropShadow */;
+			targetProxy = BC4589391ACABDBE004FA246 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC45892C1ACABDBE004FA246 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC45892D1ACABDBE004FA246 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC4589311ACABDBE004FA246 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC4589321ACABDBE004FA246 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC4589401ACABDBE004FA246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC4589411ACABDBE004FA246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC4589431ACABDBE004FA246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DropShadow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC4589441ACABDBE004FA246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DropShadow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC4589461ACABDBE004FA246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DropShadowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DropShadow.app/DropShadow";
+			};
+			name = Debug;
+		};
+		BC4589471ACABDBE004FA246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DropShadowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DropShadow.app/DropShadow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC45891E1ACABDBE004FA246 /* Build configuration list for PBXProject "DropShadow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC4589401ACABDBE004FA246 /* Debug */,
+				BC4589411ACABDBE004FA246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC4589421ACABDBE004FA246 /* Build configuration list for PBXNativeTarget "DropShadow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC4589431ACABDBE004FA246 /* Debug */,
+				BC4589441ACABDBE004FA246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC4589451ACABDBE004FA246 /* Build configuration list for PBXNativeTarget "DropShadowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC4589461ACABDBE004FA246 /* Debug */,
+				BC4589471ACABDBE004FA246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC45891B1ACABDBE004FA246 /* Project object */;
+}
